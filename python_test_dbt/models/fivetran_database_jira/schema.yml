@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+    - name: fivetran_database_jira
+      database: FIVETRAN_DATABASE
+      schema: JIRA
+      tables:
+        - name: ISSUE
+        - name: ISSUE_MULTISELECT_HISTORY
+        - name: COMPONENT
+        - name: USER
+
